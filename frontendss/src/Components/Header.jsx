@@ -19,7 +19,7 @@ function Header() {
 
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
-      <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
+      <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100%' }} navbarScroll>
         <Nav.Link as={Link} to="/" className="text-light">Home</Nav.Link>
         <Nav.Link as={Link} to="/about" className="text-light">About</Nav.Link>
         <Nav.Link as={Link} to="/services" className="text-light">Services</Nav.Link>
